@@ -8,5 +8,5 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(answer)
-  board[answer] = "X"
+  answer.to_i - 1
 end
