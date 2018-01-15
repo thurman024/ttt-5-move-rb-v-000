@@ -8,5 +8,9 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(answer)
-  answer.to_i - 1
+  index = answer.to_i - 1
+end
+
+def move(board, index, team = "X")
+  board[index] = team
 end
