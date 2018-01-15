@@ -5,6 +5,6 @@ require_relative '../lib/move.rb'
 # Code your CLI Here
 puts "Welcome to TicTacToe!"
 puts "What move would you like to make?"
+display_board(board)
 answer = gets.strip
 input_to_index(answer)
-display_board(board)
