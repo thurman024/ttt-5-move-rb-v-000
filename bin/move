@@ -7,5 +7,5 @@ puts "Welcome to TicTacToe!"
 puts "What move would you like to make?"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " ", ]
 display_board(board)
-answer = gets.strip
-input_to_index(answer)
+input = gets.strip
+input_to_index(input)
