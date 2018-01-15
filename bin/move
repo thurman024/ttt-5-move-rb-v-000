@@ -4,8 +4,8 @@ require_relative '../lib/move.rb'
 
 # Code your CLI Here
 puts "Welcome to TicTacToe!"
-puts "What move would you like to make?"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " ", ]
+puts "What move would you like to make?"
 display_board(board)
 input = gets.strip
 input_to_index(input)
